@@ -1,0 +1,105 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.top {
+	border-bottom: 1px solid #131313;
+	padding: 20px;
+}
+
+#home {
+	text-decoration: none;
+	color: #131313;
+	font-weight: 700;
+}
+
+nav {
+	float: right;
+}
+
+.nav li {
+	display: inline;
+	list-style: none;
+	padding: 0 0 0 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #131313;
+}
+
+li:nth-child(1) {
+	font-weight: 900;
+}
+
+.container {
+	display: flex;
+	font-size: 0.9em;
+	line-height: 2em;
+}
+
+.me {
+	width: 100%;
+	
+}
+
+.data-2 {
+	display: flex;
+	flex-direction: column;
+	padding: 100px 50px 0 50px;
+}
+
+.profile, #site, .bio, .social {
+	padding: 20px 0 20px 0;
+}
+
+#site {
+	display: flex;
+	border-radius: 5px;
+	height: 2%;
+	justify-content: flex-start;
+	background-color: #333333;
+}
+
+.profile::first-line {
+	font-size: 1.3em;
+	
+}
+
+.profile {
+	font-weight: bold;
+}
+
+.site {
+	display: flex;
+	justify-content: center;
+	padding-left: 20px;
+	
+	color: #fff;
+}
+
+/*.site::before {
+	content: ' ';
+	background-image: url(https://res.cloudinary.com/iykeoyiih/image/upload/v1581756736/global_kj6jvh.svg);
+	display: block;
+}*/
+
+.world {
+	width: 25px;
+	padding: 0 0 0 40px;
+	filter: invert(100%) sepia(1%) saturate(2%) hue-rotate(260deg) brightness(106%) contrast(100%);
+}
+
+.social-icons {
+	display: flex;
+	justify-content: stretch;
+	flex-basis: auto;
+}
+
+.social-icons img {
+	padding-right: 10px;
+}
+
